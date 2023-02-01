@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RlVar1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/Theme1">
+
+
+    <ImageButton
+        android:id="@+id/BtnMenu"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/ic_form_round_2"
+        app:srcCompat="@drawable/ic_logo_menu"/>
+
+    <View
+        android:id="@+id/ViewDrive"
+        android:layout_width="150dp"
+        android:layout_height="550dp"
+        android:layout_below="@+id/BtnMenu"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/ic_form_round_2"
+        android:backgroundTint="@null"/>
+
+
+    <LinearLayout
+        android:id="@+id/LayoutCons"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/BtnMenu"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_button_round"
+        >
+        <TextView
+            android:id="@+id/ViewCons"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="bottom|center"
+            android:text="10.5 €"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="/100km"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ViewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/LayoutCons"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/ViewDrive"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_button_round"
+        android:gravity="center"
+        android:text="4 €"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ViewDistance"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ViewPrice"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/ViewDrive"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_button_round"
+        android:gravity="center"
+        android:text="45 km"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BtnEndTrip"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ViewDistance"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/ViewDrive"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_form_round"
+        android:gravity="center"
+        android:text="@string/EndTrip"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        app:backgroundTint="@null"/>
+
+</RelativeLayout>

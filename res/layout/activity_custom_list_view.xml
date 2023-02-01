@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomListView"
+    android:background="@color/Theme1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:backgroundTint="@color/Theme3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/KT"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DetailDistance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="45 km"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:backgroundTint="@color/Theme3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/CST"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DetailCost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="45 km"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:backgroundTint="@color/Theme3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/AVCST"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DetailAvCost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="45 km"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:backgroundTint="@color/Theme3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/MINCST"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DetailMinCost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="45 km"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:backgroundTint="@color/Theme3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/AVCONS"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DetailAvCons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="45 km"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:backgroundTint="@color/Theme3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/FUELB"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DetailFuelBefore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="45 km"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:backgroundTint="@color/Theme3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/FUELA"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DetailFuelAfter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_form_round_2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="45 km"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

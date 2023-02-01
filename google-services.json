@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "158195145706",
+    "firebase_url": "https://ecoconduiteapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ecoconduiteapp",
+    "storage_bucket": "ecoconduiteapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158195145706:android:3120f4068730c45b28b093",
+        "android_client_info": {
+          "package_name": "com.example.demo_drive_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158195145706-04irs9b46u5li8no5vhf39akidlopksu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqdmwpTjA37BLQ24nuNyPwnBk6dFKdwPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158195145706-04irs9b46u5li8no5vhf39akidlopksu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158195145706:android:6acb75b319b69eaf28b093",
+        "android_client_info": {
+          "package_name": "com.example.eco_conduite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158195145706-04irs9b46u5li8no5vhf39akidlopksu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqdmwpTjA37BLQ24nuNyPwnBk6dFKdwPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158195145706-04irs9b46u5li8no5vhf39akidlopksu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

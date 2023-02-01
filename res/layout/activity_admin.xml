@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Admin1">
+
+    <ImageButton
+        android:id="@+id/BtnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/ic_form_round_2"
+        app:srcCompat="@drawable/ic_logo_menu"
+        android:backgroundTint="@color/Admin2"/>
+
+    <LinearLayout
+        android:id="@+id/LayoutTripReport"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/BtnMenu"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_button_round"
+        android:backgroundTint="@color/Admin2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Hello Admin !"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/AllVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/LayoutTripReport"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/ic_button_round"
+        android:text="All Vehicles"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/Admin3" />
+
+    <LinearLayout
+        android:id="@+id/lvehicule"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/AllVehicle"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/ic_button_round"
+        android:backgroundTint="@color/Star_5"
+        >
+        <TextView
+            android:id="@+id/AdminScore"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="bottom|center"
+            android:text="#"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Score"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/lvehicule"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/ic_button_round"
+        android:backgroundTint="@color/Admin3"
+        >
+
+        <TextView
+            android:id="@+id/Suspection"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="bottom|center"
+            android:text="#"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Suspection"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

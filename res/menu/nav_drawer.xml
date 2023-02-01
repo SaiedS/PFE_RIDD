@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share App"/>
+
+    <item android:id="@+id/rate"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="Rate us"/>
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="About"/>
+
+
+</menu>
